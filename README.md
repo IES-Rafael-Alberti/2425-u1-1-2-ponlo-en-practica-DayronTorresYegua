@@ -79,21 +79,29 @@ Apoyate en los siguientes recursos para realizar la práctica:
 4. **Compilación y Ejecución:**
    - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
 
-5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware¶
-Pregunta:
+### 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware
+***Pregunta:***
+**Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).**
+**Puntos a incluir:**
+- Cómo se almacenaron los datos en memoria: Se pueden almacenar como variables simples, estructuras de datos o en forma de objetos.
+- Qué hizo el procesador con el código: En lenguaje compilado ejecuta el código directamente, en el interpretado a través de un intérprete y a través de la JVM en los lenguajes de maquina virtual.
+- Si se interactuó con periféricos, como la pantalla para mostrar la salida: La salida se muestra en la pantalla mediante funciones específicas y la entrada se recibe del usuario a través de la consola.
 
-Describe cómo el software que has creado se ha relacionado con los componentes físicos del dispositivo (memoria RAM, procesador, periféricos, etc.) durante la ejecución de los tres lenguajes (interpretado, compilado y en máquina virtual).
-Puntos a incluir:
-Cómo se almacenaron los datos en memoria.
-Qué hizo el procesador con el código.
-Si se interactuó con periféricos, como la pantalla para mostrar la salida.
-5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable¶
-Preguntas:
+### 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+***Preguntas:***
+**Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?**
 
-Explica cómo el código fuente que escribiste se transformó en código objeto y ejecutable en el caso de los lenguajes compilados. ¿Generaste archivos intermedios (código objeto)? ¿Qué nombres tomaron estos archivos?
-Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.
-Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.
-5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales¶
+- Una vez creado el código fuente lo que hize fue ejecutar el comando: gcc -c programa.c para convertirlo a código objeto y por ultimo usé el comando: gcc programa.o -o programa para convertir el código objeto a ejecutable.
+
+**Para los lenguajes interpretados, describe cómo el código fuente se ejecutó directamente, sin generar archivos de código objeto o ejecutable.**
+
+- El interprete carga el archivo y este lo va ejecutando linea a linea
+
+**Para el lenguaje que genera código intermedio (Java, C#), explica cómo el código fuente se transformó en código intermedio (bytecode) y cómo este fue ejecutado por la máquina virtual.**
+
+- 
+
+##5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales##
 Preguntas:
 
 Describe el proceso de generación de código intermedio (bytecode) en el lenguaje que utilizaste que emplea una máquina virtual (por ejemplo, Java o C#).
